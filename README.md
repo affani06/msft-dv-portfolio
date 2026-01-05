@@ -1,54 +1,74 @@
-# Microsoft FP&A / Corporate Finance — Data Visualization Engineering Mini-Portfolio
+# Microsoft FP&A Dashboard — Data Visualization & Analytics Engineering Project
 
-This repo showcases:
-- **Data storytelling** (Actuals vs Forecast with scenarios)
-- **Visualization design** (executive KPIs + trend chart)
-- **Front-end** (**React**) + charting (**Chart.js**)
-- Optional: **Tableau Public embed** (drop in your published dashboard URL)
+This project demonstrates my ability to design clear, executive-level data visualizations that translate complex financial data into actionable insights — a core skill for data visualization and analytics engineering roles at Netflix.
 
-## What to include in your application
-1) **GitHub repo link** (this repo)
-2) **Live site link** (GitHub Pages / Netlify / Vercel)
-3) **Tableau Public dashboard link** (embedded inside the site)
+The dashboard is inspired by real-world FP&A and corporate finance reporting workflows and focuses on clarity, storytelling, and decision-making efficiency.
 
 ---
 
-## Quick start (local)
-1. Install Node.js (LTS)
-2. In terminal:
+## Dashboard Overview
 
-```bash
-npm install
-npm run dev
-```
+![Dashboard](msft_dashboard.png)
 
-Open the local URL shown in the terminal.
+This dashboard presents a concise financial snapshot using KPI-driven design and trend analysis, optimized for leadership review.
 
 ---
 
-## Add your Tableau link (1 minute)
-Open `src/config.js` and paste your Tableau Public **share** link in `TABLEAU_PUBLIC_URL`.
+## Key Business Questions Answered
 
-If you do not want Tableau, set `SHOW_TABLEAU_EMBED = false`.
-
----
-
-## Deploy (GitHub Pages — easiest)
-1. Push this repo to GitHub
-2. In GitHub: **Settings → Pages**
-3. Build & deploy: Use **GitHub Actions** (included)
-
-Alternative: drag-and-drop deploy on Netlify/Vercel.
+- How is revenue trending over time?
+- What is the current profitability (net income and operating margin)?
+- How do forecasted revenues compare to current performance?
+- Which metrics matter most at an executive glance?
 
 ---
 
-## Data
-- `data/msft_finance_clean.csv` — clean long-form dataset used by the React chart
-- `data/kpis.json` — precomputed KPI values for display
+## Metrics & Visual Components
+
+- **Revenue (Actual)**  
+  High-level topline performance indicator.
+
+- **Net Income**  
+  Profitability signal used for operational and strategic decisions.
+
+- **Forecast Revenue**  
+  Forward-looking view supporting planning and scenario analysis.
+
+- **Operating Margin**  
+  Efficiency metric highlighting cost discipline and scalability.
+
+- **Revenue Trend Line**  
+  Time-series visualization for pattern recognition and growth evaluation.
 
 ---
 
-## Notes
-This project is intended for **Data Visualization Engineering** roles where the reviewer expects both:
-- a strong visualization narrative
-- *and* evidence you can ship a small front-end visualization experience
+## Data Visualization Principles Applied
+
+- **KPI-first layout** for immediate insight
+- **Minimalist design** to reduce cognitive load
+- **Consistent formatting** for financial comparability
+- **Clear hierarchy** between summary metrics and trends
+- **Story-driven structure** rather than raw charts
+
+These principles align closely with Netflix’s emphasis on clear, honest, and impactful data communication.
+
+---
+
+## Tools & Technologies
+
+- **Tableau** — dashboard design and KPI visualization  
+- **Excel** — structured financial data modeling  
+- **Financial modeling concepts** — FP&A-style metrics and forecasting  
+- **Data storytelling** — translating numbers into insights  
+
+- Build visualizations that support **real business decisions**
+- Design dashboards for **non-technical stakeholders**
+- Balance **analytical depth** with **visual simplicity**
+- Communicate insights clearly without unnecessary complexity
+
+---
+
+## Author
+ Affan Ibrahim  
+Data Visualization & Analytics Engineering Candidate  
+
